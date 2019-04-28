@@ -1,11 +1,7 @@
-import datetime
 
 name = input("Hi friend, what is your name? ")
-
 age = input("and your age ? ")
 
-yearstogo = 100 - int(age)
+finalbday = 2019 + int(age)
 
-
-print(f"{name}, you will turn 100 on " )
-
+print(f"{name}, your 100th Birthday will be on {finalbday} " )
